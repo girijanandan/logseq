@@ -1,0 +1,5 @@
+* Discuss with HK
+** How to handle MPR rule application across multiple claims.
+** Order of claim handling, or should all rules handle all other claims ?
+* Discuss with Kasi
+** All scenarios of MPR rules
