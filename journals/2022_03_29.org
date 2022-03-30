@@ -1,5 +1,20 @@
 * Discuss with HK
 ** How to handle MPR rule application across multiple claims.
-** Order of claim handling, or should all rules handle all other claims ?
+** what is the scope of each rule? Should all rules handle all other claims ?
 * Discuss with Kasi
-** All scenarios of MPR rules
+** Does all MPR rules apply only if physician is same?
+** Exception scenarios in MPR-2
+** Test cases covering all scenarios in MPR-3
+** Learn about other MPR rules, so that i can start coding
+* Ask shailesh where is physician id in domain-model
+* #Study_Materials [Rule Engines: Competitors]
+** https://inrule.com/
+** https://trino.io/
+** https://decisionrules.io/#top
+* Result of meeting with Kasi
+** Physician same i need to consider [same Tax Id, clause 25]
+** Mod 22, ignore item for MPR calculation
+** Adding 51 modifier in case of reduction applied for an item. Dont consider more than 5 item for appending
+** Preprocessing stage for all MPR rules, adding modifier 51. Take it before any other
+** MPR3 needs to consider other MPR codes as well
+**
